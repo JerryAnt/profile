@@ -3,26 +3,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
 
 body {
-  background-color: #E6DDC6;
+  background-color: #171717;
   line-height: 0.5;
   }
 
- h1, h2, h3 {
+ h3 {
   font-family: 'Zen Tokyo Zoo', cursive;
   color: #423411;
   font-size: 32px;
   font-weight: 900;
   }
 
+h1, h2{
+  text-shadow: 0 0 2px #FFF5FD, 0 0 4px #FFF5FD, 0 0 5px #FED128, 0 0 6px #FED128,
+  0 0 7px #FED128, 0 0 9px #FED128;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 32px;
+  font-weight: 900;
+}
   p {
   /*font-family: 'Open Sans', sans-serif;*/
   font-family: 'Shippori Mincho', serif;
-  color: #423411;
+  color: #FFF5FD;
   font-size: 16px;
   }
 
  a {
   color: #180E42;
+  text-decoration: none;
   }
 
  a:hover {
@@ -67,15 +75,15 @@ body {
   }
 
   .card-white {
-  background: white;
+  background: #141619;
   margin: 0 auto;
-  border: 1px solid lightgrey;
+  border: 1px solid #141619;
   font-size: 50px;
   }
 
   .red-neon {
-  box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 5px #C82323, 0 0 6px #C82323,
-  0 0 7px #C82323, 0 0 8px #C82323;
+  box-shadow: 0 0 2px #FFF5FD, 0 0 4px #FFF5FD, 0 0 5px #FED128, 0 0 6px #FED128,
+  0 0 7px #FED128, 0 0 9px #FED128;
   }
 
 .container {
@@ -110,7 +118,7 @@ body {
 }
 
 
-.list-inline, h2 {
+.list-inline {
 
   color: #FB4264;
   animation: neon 1s ease infinite;
@@ -121,7 +129,7 @@ body {
 @keyframes neon {
   0%,
   100% {
-    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    text-shadow: 0 0 1vw #FFF5FD, 0 0 3vw #FFF5FD, 0 0 10vw #FFF5FD, 0 0 10vw #FFF5FD, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
     color: #FED128;
   }
   50% {
