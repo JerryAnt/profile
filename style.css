@@ -5,14 +5,14 @@
 body {
   background-color: #171717;
   line-height: 0.5;
-  }
+}
 
- h3 {
+h3 {
   font-family: 'Zen Tokyo Zoo', cursive;
   color: #423411;
   font-size: 32px;
   font-weight: 900;
-  }
+}
 
 h1, h2{
   text-shadow: 0 0 2px #FFF5FD, 0 0 4px #FFF5FD, 0 0 5px #FED128, 0 0 6px #FED128,
@@ -21,78 +21,76 @@ h1, h2{
   font-size: 32px;
   font-weight: 900;
 }
-  p {
+
+p {
   /*font-family: 'Open Sans', sans-serif;*/
   font-family: 'Shippori Mincho', serif;
   color: #FFF5FD;
   font-size: 16px;
-  }
+}
 
- a {
+a {
   color: #180E42;
   text-decoration: none;
-  }
+}
 
- a:hover {
+a:hover {
   color: #FFE194;
   background-color: #180E42;
   background-image: url(image (3).png);
-  }
+}
 
-  .img-circle {
+.img-circle {
   border-radius: 50%;
   padding: 30px;
+}
 
-  }
-  .button-ruby {
+.button-ruby {
   background-color: #C82323;
   color: #E6DDC6;
   border-radius: 4px;
   text-align: center;
   padding: 15px 20px;
   text-decoration: none;
-  }
+}
 
-  .button-ruby:hover {
+.button-ruby:hover {
   background-color: #180E42;
   color: #E6DDC6;
   border-radius: 4px;
   text-align: center;
   padding: 15px 20px;
   text-decoration: none;
-  }
+}
 
-  .list-inline > li {
+.list-inline{
+  padding-left: 0px;
+}
+
+.list-inline > li {
   display: inline-block;
-  padding: 0px 20px;
+}
 
-  }
-
-  .list-inline a {
+.list-inline a {
   color: #C82323;
   list-style: none;
-  padding-left: 0px;
-  }
+  /*list-style so the bullets disappear*/
+}
 
-  .card-white {
+.card-white {
   background: #141619;
   margin: 0 auto;
   border: 1px solid #141619;
   font-size: 50px;
-  }
-
-  .red-neon {
-  box-shadow: 0 0 2px #FFF5FD, 0 0 4px #FFF5FD, 0 0 5px #FED128, 0 0 6px #FED128,
-  0 0 7px #FED128, 0 0 9px #FED128;
-  }
+}
 
 .container {
   width: 500px;   /* This sets the width */
   margin: 10 auto;
   text-align: center; /* This automatically sets left/right margins */
-
 }
 
+/*-----------------------------------------------------------*/
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -104,7 +102,6 @@ h1, h2{
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
-
 }
 ;
   }
@@ -117,9 +114,14 @@ h1, h2{
   }
 }
 
+/*-----------------------------------------------------------*/
+.red-neon {
+  box-shadow: 0 0 2px #FFF5FD, 0 0 4px #FFF5FD, 0 0 5px #FED128, 0 0 6px #FED128,
+  0 0 7px #FED128, 0 0 9px #FED128;
+}
 
-.list-inline {
 
+.blink {
   color: #FB4264;
   animation: neon 1s ease infinite;
   -moz-animation: neon 1s ease infinite;
@@ -131,12 +133,9 @@ h1, h2{
   100% {
     text-shadow: 0 0 1vw #FFF5FD, 0 0 3vw #FFF5FD, 0 0 10vw #FFF5FD, 0 0 10vw #FFF5FD, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
     color: #FED128;
-  }
+}
   50% {
     text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
     color: #806914;
   }
 }
-
-
-
